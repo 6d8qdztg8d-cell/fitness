@@ -1,0 +1,73 @@
+{
+  "name": "Champion Fitness",
+  "short_name": "Fitness",
+  "description": "Premium Mobile-First Fitness App für iPhone 12 Mini",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot2.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["fitness", "health"],
+  "shortcuts": [
+    {
+      "name": "Training",
+      "short_name": "Training",
+      "description": "Starten Sie Ihr Training",
+      "url": "/?tab=training",
+      "icons": [
+        {
+          "src": "/icon-training.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Ernährung",
+      "short_name": "Ernährung",
+      "description": "Tracken Sie Ihre Mahlzeiten",
+      "url": "/?tab=nutrition",
+      "icons": [
+        {
+          "src": "/icon-nutrition.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
